@@ -26,7 +26,7 @@ import StatusListContainer from '../ui/containers/status_list_container';
 
 import { ColumnSettings } from './components/column_settings';
 import { CriticalUpdateBanner } from './components/critical_update_banner';
-import { ExplorePrompt } from './components/explore_prompt';
+import { InlineFollowSuggestions } from './components/inline_follow_suggestions';
 
 const messages = defineMessages({
   title: { id: 'column.home', defaultMessage: 'Home' },
@@ -193,7 +193,7 @@ class HomeTimeline extends PureComponent {
     }
 
     if (tooSlow) {
-      banners.push(<ExplorePrompt key='explore-prompt' />);
+      banners.push(<InlineFollowSuggestions key='explore-prompt' />);
     }
 
     return (
