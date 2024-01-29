@@ -1871,16 +1871,25 @@ ar:
     webauthn: مفاتيح الأمان
   user_mailer:
     appeal_approved:
+      action: إعدادات الحساب
       explanation: تمت الموافقة على استئناف السجل ضد حسابك في %{strike_date} الذي قدمته في %{appeal_date}. حسابك مرة أخرى في حالة جيدة.
       subject: تم قبول طعنك الذي قدمته بتاريخ %{date}
+      subtitle: حسابك في وضع جيد مرة أخرى.
       title: تم قبول طعنك
     appeal_rejected:
       explanation: تم رفض استئناف السجل ضد حسابك في %{strike_date} الذي قدمته في %{appeal_date}.
       subject: تم رفض طعنك الذي قدمته بتاريخ %{date}
+      subtitle: تم رفض استئنافك.
       title: رُفض الاستئناف
     backup_ready:
+      extra: إنه الآن جاهز للتحميل!
       subject: نسخة بيانات حسابك جاهزة للتنزيل
       title: المغادرة بأرشيف الحساب
+    failed_2fa:
+      details: 'فيما يلي تفاصيل محاولة تسجيل الدخول:'
+      explanation: حاول شخص ما تسجيل الدخول إلى حسابك ولكنه قدم عامل مصادقة ثانٍ غير صالح.
+      subject: فشل المصادقة على العامل الثاني
+      title: فشل المصادقة على العامل الثاني
     suspicious_sign_in:
       change_password: غيّر كلمتك السرية
       details: 'فيما يلي تفاصيل تسجيل الدخول:'

@@ -530,6 +530,7 @@
   "privacy.private.short": "Последователи",
   "privacy.public.long": "Всеки във и извън Mastodon",
   "privacy.public.short": "Публично",
+  "privacy.unlisted.additional": "Това поведение е точно като публичното, с изключение на това, че публикацията няма да се появява в каналите на живо, хаштаговете, проучването или търсенето в Mastodon, дори ако сте се включили в целия акаунт.",
   "privacy.unlisted.long": "По-малко алгоритмични фанфари",
   "privacy.unlisted.short": "Тиха публика",
   "privacy_policy.last_updated": "Последно осъвременяване на {date}",

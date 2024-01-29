@@ -1660,6 +1660,7 @@ be:
       unknown_browser: Невядомы браўзер
       weibo: Weibo
     current_session: Бягучая сесія
+    date: Дата
     description: "%{browser} на %{platform}"
     explanation: Гэта вэб-браўзэры, з якіх выкананы ўваход у ваш уліковы запіс Mastodon.
     ip: IP
@@ -1838,6 +1839,7 @@ be:
     webauthn: Ключы бяспекі
   user_mailer:
     appeal_approved:
+      action: Налады ўліковага запісу
       explanation: Апеляцыя на папярэджанне супраць вашага ўліковага запісу ад %{strike_date}, якую вы падалі %{appeal_date}, была ўхвалена. Ваш уліковы запіс зноў на добрым рахунку.
       subject: Вашая апеляцыя ад %{date} была ўхваленая
       title: Абскарджанне ўхвалена
